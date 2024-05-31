@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.main__name {
+    padding-top: 15px;
+}
+.main__nav {
+    color: gray;
+}
+.cardmain {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cardone, .cardtwo, .cardthree, .cardfour {
+    border: black solid 3px;
+    display: inline-block;
+    text-align: center;
+    height: 430px;
+    width: 200px;
+    vertical-align: top;
+}
+.cardone__img, .cardtwo__img, .cardthree__img, .cardfour__img {
+    width: 100%;
+    height: 320px;
+}
+.cardone__name, .cardtwo__name, .cardthree__name, .cardfour__name {
+    padding-top: 2px;
+}
+.cardone__button, .cardtwo__button, .cardthree__button, .cardfour__button {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+}
+.food {
+    background-color: black;
+    color: white;
+    height: 160px;
+    text-align: center;
+}
+.food {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;  
+}
+.food__contact {
+    padding-top: 20px;
+}
+td, input {
+    text-align: left;
+}
+.food__form__contact {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.food__button {
+    color: black;
+    background-color: #CBCC00;
+    width: 350px;
+    padding: 7px;
+    text-align: center;
+    margin-top: 5px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food__input {
+    width: 100%;
+    display: block;
+}
+.food__tag {
+    text-align: right;
+    padding-right: 10px; 
+}
+.food__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+.food__form table {
+    margin: 0 auto; 
+}
